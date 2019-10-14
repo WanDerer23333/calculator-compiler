@@ -30,7 +30,10 @@ a = (10.44*356+1.28) / 2 + 1024 * 1.6;
 b = a * 2 - a/2;
 write(b);
 write(a).
+```
+
 4. Error( line 4 ): divide by zero
+``` C
 float a; 
 float b; 
 a = 10.44;
